@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Page</title>
+    <style>
+        body {
+            background-color: #A6E2EE;
+            font-family: Arial, sans-serif;
+        }
+   .form-container {
+     max-width: 220px;
+     margin: auto;
+     padding: 20px;
+     background: white;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <label><b>Firstname:</label><br>
+    <input type="text" name="firstname" size="15" required/> <br><br>
+    
+    <label><b>Middlename:</label><br>
+    <input type="text" name="middlename" size="15"/> <br><br>
+    
+    <label><b>Lastname:</label><br>
+    <input type="text" name="lastname" size="15" required/> <br><br>
+    
+    <label><b>Course:</label><br>
+    <select name="course" required>
+        <option value="">Select a Course</option>
+        <option value="BCA">BCA</option>
+        <option value="BBA">BBA</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="M.Tech">M.Tech</option>
+    </select>
+    <br><br>
+
+    <label><b>Gender:</label><br>
+    <input type="radio" name="gender" value="male" required/> Male <br>
+    <input type="radio" name="gender" value="female"/> Female <br>
+    <input type="radio" name="gender" value="other"/> Other <br>
+    <br>
+
+    <label><b>Phone:</label><br>
+    <input type="text" name="country_code" value="+91" size="2" required/>
+    <input type="text" name="phone" size="10" required/> <br><br>
+    
+    <label><b>Address:</label><br>
+    <textarea name="address" cols="20" rows="5" required></textarea> <br><br>
+
+    <label><b>Email:</label><br>
+    <input type="email" name="email" size="20" required/> <br><br>
+
+    <label><b>Password:</label><br>
+    <input type="password" id="pass" name="pass" required/> <br><br>
+    
+    <label><b>Re-type Password:</label><br>
+    <input type="password" id="repass" name="repass" required/> <br><br>
+</div>
+
+</body>
+</html>
